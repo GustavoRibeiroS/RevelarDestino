@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#container{
+    margin-top: 150px;
+    width: 80%;
+    max-width: 400px; /*caso o tamanho da página altere o container acompanha*/
+    margin-inline: auto;
+    /*margin-right: auto;
+    margin-left: auto;*/
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+p{
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+input, button{ /*Prppriedades aplicadas para input e button */
+    display: block;
+    width: 100%; /*Largura de acordo com a largura da "caixa"(container)*/
+
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+input{
+    margin-bottom: 20px;
+    width: 89%
+}
+
+button{
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition: filter .2s;
+}
+
+button:hover{ /*Pseudo-class, qunado passar o mouse em cima do botão*/
+    filter: brightness(1.2);
+    cursor: pointer;
+}
