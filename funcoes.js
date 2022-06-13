@@ -32,7 +32,7 @@ const respostas = [
 function fazerPergunta() {
 
     if (inputPergunta.value == "") {
-        alert("Digite sua Pergunta")
+        alert("Digite sua pergunta")
         return
     }
 
