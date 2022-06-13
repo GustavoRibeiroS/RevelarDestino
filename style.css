@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -39,7 +40,6 @@ input, button{ /*Prppriedades aplicadas para input e button */
 }
 input{
     margin-bottom: 20px;
-    width: 89%
 }
 
 button{
@@ -52,4 +52,17 @@ button{
 button:hover{ /*Pseudo-class, qunado passar o mouse em cima do botão*/
     filter: brightness(1.2);
     cursor: pointer;
+}
+
+#resposta{
+    margin-top: 30px;
+
+    transition: opacity 1s;
+}
+
+#resposta div{
+    font-size: 16px;
+    font-weight: normal; /*Fonte antes em negrito, foi para "normal"*/
+    opacity: 0.9;
+    margin-bottom: 10px; 
 }
